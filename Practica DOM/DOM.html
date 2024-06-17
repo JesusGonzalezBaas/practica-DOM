@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica DOM</title>
+</head>
+<body>
+    <p id = "Demo"></p>
+    <script>
+         document.getElementById("Demo").innerHTML="Hola mundo"
+         const elemento = document.getElementById("Intro")
+    </script>
+    <P id="p1">Hola mundo</P>
+    <script>
+        
+        document.getElementById("p1").innerHTML="¡Nuevo Texto!"
+
+    </script>
+    <h1 id="titulo">Encabezado Viejo</h1>
+
+<script>
+    const elementos= document.getElementById("titulo");
+    elementos.innerHTML = "Nuevo Encabezado";
+    
+</script>
+
+<script>
+    const element = document.getElementsByName("p");
+    const x = document.getElementById("main");
+    console.log(x);
+    const y = x.getElementsByTagName("p");
+    console.log(y);
+
+
+</script>
+
+</body>
+</html>
